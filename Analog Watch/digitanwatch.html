@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Watch</title>
+    <link rel="stylesheet" href="styled.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="clock">
+              <span id="hrs">00</span> 
+              <span>:</span> 
+              <span id="min">00</span> 
+              <span>:</span> 
+              <span id="sec">00</span> 
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+  let hrs = document.getElementByid("hrs");
+  let min = document.getElementByid("min");
+  let sec = document.getElementByid("sec");
+  
+  let currentTime = new Date();
+
+  console.log(currentTime);
+
+
+
+    </script>
+    
+</body>
+</html>
